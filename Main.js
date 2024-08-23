@@ -1036,7 +1036,7 @@ books.forEach(function(value){
   //anchor tag
   const anchor = document.createElement("a");
   readBtn.appendChild(anchor)
-  anchor.textContent="Read More";
+  anchor.textContent="Read";
   anchor.href=value.link;
   anchor.classList.add("anchor")
 })
