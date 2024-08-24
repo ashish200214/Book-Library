@@ -1025,7 +1025,7 @@ books.forEach(function(value){
   //author name
   const author = document.createElement("h3");
   subDiv.appendChild(author)
-  author.textContent="Autor Name : "+value.author;
+  author.textContent=value.author;
   author.classList.add("author")
   
   //Read More button
